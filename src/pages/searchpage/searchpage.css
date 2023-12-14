@@ -1,0 +1,49 @@
+.search-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+input {
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.search-results {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.result-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.result-text {
+  margin-left: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+.go-back-button {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  cursor: pointer;
+}
