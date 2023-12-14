@@ -15,3 +15,16 @@ http://localhost:3000/movie/start
 
 Searchpage URL
 http://localhost:3000/movie/start/search
+
+------------------------------------------------
+
+터미널 설치 명령어 모음
+
+<프론트엔드>
+npm install -save react-scripts
+npm install axios
+
+<백엔드>
+npm i
+npm install express
+npm i redis
